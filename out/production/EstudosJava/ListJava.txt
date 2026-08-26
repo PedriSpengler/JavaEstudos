@@ -1,0 +1,18 @@
+O List interface faz parte do Java Collections Framework e representa uma coleção ordenada de elementos.
+
+Você pode acessar elementos pelo seu índice, adicionar duplicados e manter a ordem de inserção.
+
+Como List é uma interface, você não pode criar um objeto List diretamente.
+
+Em vez disso, você usa uma classe que implementa a List interface, como por exemplo:
+
+ArrayList- como um array redimensionável com acesso aleatório rápido
+LinkedList- como um trem de vagões que você pode facilmente conectar ou desconectar
+
+Use List Quando a ordem é importante para você, pode haver elementos duplicados e você pode querer acessá-los pelo índice.
+
+add() 	Adds an element to the end of the list
+get() 	Returns the element at the specified position
+set() 	Replaces the element at the specified position
+remove() 	Removes the element at the specified position
+size() 	Returns the number of elements in the list

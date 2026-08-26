@@ -1,0 +1,14 @@
+O SetA interface faz parte do Java Collections Framework e é usada para armazenar uma coleção de elementos únicos .
+
+Ao contrário de um List, um SetNão permite duplicados e não preserva a ordem dos elementos (a menos que você esteja usando TreeSet ou LinkedHashSet).
+
+Classes comuns que implementam Set:
+
+    HashSet- rápido e desordenado
+    TreeSet- conjunto ordenado
+    LinkedHashSet- ordenado por inserção
+
+List 	            Set
+Allows duplicates 	Does not allow duplicates
+Maintains order 	Does not guarantee order
+Access by index 	No index-based access
