@@ -1,0 +1,17 @@
+O MapA interface `Collections` faz parte do framework Java Collections e é usada para armazenar pares de chave-valor . Cada chave deve ser única, mas os valores podem ser duplicados.
+
+UM MapÉ útil quando você deseja associar uma chave (como um nome ou ID) a um valor (como uma idade ou descrição).
+
+Classes comuns que implementam Map:
+
+    HashMap-> rápido e desordenado
+    TreeMap-> ordenado por chave
+    LinkedHashMap-> ordenado por inserção
+
+
+Use um MapQuando você deseja associar valores a chaves exclusivas, como armazenar IDs de usuário com nomes.
+
+Feature 	            List 	Set 	                                    Map
+Duplicates allowed? 	Yes 	No 	                                        Keys: No, Values: Yes
+Stores key-value pairs? No 	    No 	                                        Yes
+Maintains order? 	    Yes 	No (unless using TreeSet or LinkedHashSet) 	No (unless using TreeMap or LinkedHashMap)
