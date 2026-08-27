@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 
-public class Algorithms {
+public class AlgorithmsJava {
     public static void main(String[] args) {
         // Pesquisando
         ArrayList<String> names = new ArrayList<>();
