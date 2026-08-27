@@ -25,11 +25,11 @@ public class IteratorJava {
         numbers.add(8);
         numbers.add(2);
         numbers.add(23);
-        Iterator<Integer> it = numbers.iterator();
-        while(it.hasNext()) {
-            Integer i = it.next();
+        Iterator<Integer> it2 = numbers.iterator();
+        while(it2.hasNext()) {
+            Integer i = it2.next();
             if(i < 10) {
-                it.remove();
+                it2.remove();
             }
         }
         System.out.println(numbers);
