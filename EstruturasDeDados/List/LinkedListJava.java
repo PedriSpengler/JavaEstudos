@@ -1,5 +1,6 @@
 package List;// Importando uma classe LinkedList
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class LinkedListJava {
     public static void main(String[] args) {
@@ -17,6 +18,23 @@ public class LinkedListJava {
 
 
         System.out.println(cars);
+
+        Queue<String> queue = new LinkedList<>();
+
+        queue.add("Leandro");
+        queue.add("Leonardo");
+        queue.add("Leidy");
+        queue.offer("Laura");
+
+        System.out.println(queue);
+
+        queue.remove();
+        System.out.println(queue);
+        queue.poll();
+        System.out.println(queue);
+        System.out.println(queue.element());
+        System.out.println(queue.peek());
+
     }
 }
 /*

@@ -1,11 +1,11 @@
 package List;
-
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class ArrayListJava{
     public static void main(String [] args) {
-        ArrayList<String> carro = new ArrayList<>(); // instanciando uma variavel do tipo ArrayList
+        List<String> carro = new ArrayList<>(); // instanciando uma variavel do tipo ArrayList
         // List<String> cars = new ArrayList<>(); -> podemos fazer dessa forma, para depois alterar o tipo de ArrayList, para outro List type.
 
         // adicionando um novo objeto no ArrayList, na instancia carro
